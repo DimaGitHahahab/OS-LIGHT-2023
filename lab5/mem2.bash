@@ -11,6 +11,6 @@ while true; do
 
     if ((counter % 10000 == 0)); then
         length=$(( counter * 10 ))
-        echo "$length" >> report.log
+        echo "$length" >> report2.log
     fi
 done
